@@ -1,0 +1,30 @@
+{
+  "name": "p3-phifer-melinn",
+  "version": "1.0.0",
+  "description": "project 3",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mphifer/p3-phifer-melinn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mphifer/p3-phifer-melinn/issues"
+  },
+  "homepage": "https://github.com/mphifer/p3-phifer-melinn#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "watch": "^1.0.2"
+  }
+}
