@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
+    display:block;
+}
+
+/*
+COLORS
+off-white: #ece6e4;
+brown: #c8b8ae;
+blue: #a9b4db;
+purple: #ab8bbb;
+charcoal: #5a555b;
+black: #3d3c3e;
+*/
+
+
+body {
+  background-color: #ece6e4;
+	color: #3d3c3e;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: 'Damion', cursive;
+	font-size: 2.4rem;
+	font-weight: normal;
+	color: #a9b4db;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+
+.footer-phrase, h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	color: #ece6e4;
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.4rem;
+	font-weight: 700;
+	padding-top: 20px;
+}
+
+header {
+	background-color: #5a555b;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+/* menu  */
+div {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#place {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 1.2rem;
+}
+
+/* footer */
+
+.footer-title {
+	font-family: 'Damion', cursive;
+	font-size: 2rem;
+	color: #564e59;
+	text-transform: lowercase;
+	letter-spacing: 1px;
+}
+
+.footer-phrase {
+	color: #564e59;
+	font-size: 1rem;
+	padding-top: 10px;
+}
+
+footer {
+	background-color:  #a9b4db;
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+button {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ece6e4;
+	background-color: #ab8bbb;
+	border-radius: 13px;
+	padding: 10px 12px 6px 12px;
+	margin-bottom: 30px;
+}
+
+
+img {
+	max-width: 100px;
+}
+
+/**********************Start Min-width 600px *******************/
+@media (min-width: 600px) {
+
+ /* header */
+h1 {
+	font-size: 3.8rem;
+}
+
+h2 {
+	font-size: 1.3rem;
+}
+
+ /* footer */
+.footer-title {
+	font-size: 3rem;
+}
+
+.footer-phrase {
+	font-size: 1.1rem;
+}
+
+button {
+	font-size: 1.4rem;
+	padding: 14px 16px 10px 16px;
+}
+
+}
+/**********************End Min-width 600px *******************/
+
+
+/**********************Start Min-width 1000px *******************/
+@media (min-width: 1000px) {
+
+img {
+	max-width: 180px;
+}
+
+}
+/**********************End Min-width 1000px *******************/

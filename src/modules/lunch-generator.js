@@ -1,8 +1,9 @@
 class LunchGenerator {
 
-  constructor(){
-    this.
+  constructor() {
+    logSomethingToTheConsole() {
+      console.log('test!');
+    }
   }
-}
 
 export const lunchGen = new LunchGenerator();
