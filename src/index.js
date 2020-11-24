@@ -7,7 +7,6 @@ class App {
 
   constructor() {
     this.renderTemplate();
-    lunchGen.logSomethingToTheConsole();
   }
 
   renderTemplate() {
@@ -24,22 +23,22 @@ class App {
       <div>
         <img src="../images/fries.png" alt="french fries sketch icon" title="french fries sketch icon" />
         <h3>Appetizer</h3>
-        <p id="place">sample</p>
+        <p>${lunchGen.appetizer}</p>
       </div>
 
       <div>
         <img src="../images/sandwich.png" alt="sandwich sketch icon" title="sandwich sketch icon" />
         <h3>Main Course</h3>
-        <p id="place"></p>
+        <p>${lunchGen.meal}</p>
       </div>
 
       <div>
         <img src="../images/cupcake.png" alt="cupcake sketch icon" title="cupcake sketch icon" />
         <h3>Dessert</h3>
-        <p id="place"></p>
+        <p>${lunchGen.dessert}</p>
       </div>
 
-      <button id="click-me">Surprise Me!</button>
+      <button type="button" onClick="window.location.reload();">Suprise Me!</button>
       </section>
       </main>
 
