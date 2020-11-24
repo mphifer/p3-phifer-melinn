@@ -13,8 +13,8 @@ class App {
     const template = `
 
       <header>
-      <h1>${header.headerTitle}</h1>
-      <h2>${header.headerPhrase}</h2>
+        <h1>${header.headerTitle}</h1>
+        <h2>${header.headerPhrase}</h2>
       </header>
 
       <main>
@@ -39,6 +39,7 @@ class App {
       </div>
 
       <button type="button" onClick="window.location.reload();">Suprise Me!</button>
+      
       </section>
       </main>
 
