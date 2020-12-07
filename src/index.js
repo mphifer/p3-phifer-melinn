@@ -38,8 +38,8 @@ class App {
         <p>${lunchGen.dessert}</p>
       </div>
 
-      <button type="button" onClick="window.location.reload();">Suprise Me!</button>
-      
+      <button type="button" onClick="window.location.reload();">Surprise Me!</button>
+
       </section>
       </main>
 
